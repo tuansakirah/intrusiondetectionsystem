@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intrusion Detection System</title>
+</head>
+<body>
+    <h1>Intrusion Detection System</h1>
+    <form action="/predict" method="POST">
+        <label>Enter Feature Values:</label><br>
+        <!-- Add input fields for all features -->
+        <input type="text" name="feature1" placeholder="Feature 1"><br>
+        <input type="text" name="feature2" placeholder="Feature 2"><br>
+        <!-- Repeat for all features -->
+        <button type="submit">Predict</button>
+    </form>
+    <h2>{{ prediction_text }}</h2>
+</body>
+</html>
