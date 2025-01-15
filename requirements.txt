@@ -6,6 +6,5 @@ matplotlib
 seaborn
 scikit-learn
 lightgbm
-xgboost
-tabulate
-optuna
+xg
+>>>>>>> 3c0c7ef13d5c2723985d64bc5f7a48892af6b6cc
